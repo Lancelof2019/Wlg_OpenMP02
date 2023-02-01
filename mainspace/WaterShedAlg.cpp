@@ -79,7 +79,7 @@
      }
 
 Array2D<int> threshmat(rows,cols,0);     
-Array2D<int> markers(rows,cols,0);
+Array2D<int> markers(rows,cols,-1);//0
 Array2D<bool> visArr(rows,cols,false);
 Array2D<int> plots(rows,cols,0);
 Array2D<int> markerMap(rows,cols,0);
